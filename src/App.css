@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+h1 {
+  font-family: 'Cousine', monospace;
+  font-size: 5rem;
+  font-weight: bolder;
+  text-align: start;
+}
+
+.main {
+  padding: 20vh;
+}
