@@ -44,6 +44,19 @@ h1 {
   text-align: start;
 }
 
+.nav-content {
+  font-size: 2rem;
+}
 .main {
   padding: 20vh;
+}
+
+.about {
+  padding: 20vh;
+  text-align: start;
+  display: flex;
+}
+
+.about-img {
+  width: 50vw;
 }
