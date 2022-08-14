@@ -1,0 +1,1 @@
+const skills = ["Javascript", "HTML", "CSS", "React.js"]
