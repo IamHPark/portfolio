@@ -14,6 +14,7 @@ function App() {
       <Top />
       <Routes>
         <Route path="/" element={<Main />} />
+        <Route path="/game" element={<Canvas />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/resume" element={<Resume />} />
