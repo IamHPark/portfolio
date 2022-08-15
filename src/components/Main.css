@@ -1,8 +1,8 @@
 .main-container{
-    display: flex;
-    margin: 5vh auto;
-    justify-content: center;
-    align-items: center;
+    background: url('/public/app-bg.png') no-repeat;
+    background-size: contain;
+    height: 100vh;
+    width: 100vw;
 }
 
 h1 {
@@ -10,14 +10,12 @@ h1 {
 }
 
 .main-content {
-    position: absolute;
-    top: 20vh;
-    left: 10vw;
+    padding: 10vw;
 }
 
 img {
-    width: 40vw;
-    margin-left: 30vw;
+    width: 20vw;
+    cursor: pointer;
 }
 
 .main-btn {

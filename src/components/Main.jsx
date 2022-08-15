@@ -12,12 +12,15 @@ export default function Main() {
         <>
             <div className="main-container">
                 <div className="main-content">
+                    <img src="/board.png" alt="" width={"700px"} />
                     <h1>Hello, I'm Heesoo</h1>
                     <h1>A Full-stack Web Developer</h1>
                 </div>
-                <img src="/girl.jpg" alt="" width={"800px"}/>
+                <img className="start-btn" src="/start.png" alt="" onClick={goGame}/>
+                {/* <img src="/girl.jpg" alt="" width={"800px"}/> */}
             </div>
-            <button className="main-btn" onClick={goGame}>start</button>
+
+            {/* <button className="main-btn" onClick={goGame}>start</button> */}
         </>
     )
 }
