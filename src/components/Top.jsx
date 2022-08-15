@@ -6,13 +6,13 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
-function OffcanvasExample() {
+function Top() {
   return (
     <>
       {[false].map((expand) => (
         <Navbar key={expand} bg="light" expand={expand} className="mb-3">
           <Container fluid>
-            <Navbar.Brand href="#"><img src="/logo.png" width={ "100px" }></img></Navbar.Brand>
+            <Navbar.Brand href="#"><h1 className='logo'>&lt;soo/&gt;</h1></Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
@@ -41,4 +41,4 @@ function OffcanvasExample() {
   );
 }
 
-export default OffcanvasExample;
+export default Top;

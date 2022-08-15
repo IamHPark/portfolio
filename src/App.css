@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Cousine', monospace;
 }
 
 .App-logo {
@@ -60,3 +61,19 @@ h1 {
 .about-img {
   width: 50vw;
 }
+.logo {
+  font-family: 'Limelight', cursive;
+  font-size: 5rem;
+}
+/* .main-container {
+  padding: 10vw;
+}
+
+.main-btn {
+  font-size: 5rem;
+  padding: 10px 30px;
+  border: none;
+  color: #5f4b8bff;
+  font-weight: 900;
+  background-color: transparent;
+} */

@@ -1,26 +1,12 @@
-import React, { useEffect, useRef } from "react"
-import image from '../img/town-map.png';
+import React from "react";
 
 export default function Main() {
-    const canvasRef = useRef(null);
-
-    useEffect(() => {
-        const canvas = canvasRef.current;
-        canvas.width = 1200;
-        canvas.height = 800;
-        const ctx = canvas.getContext("2d");
-
-        const bg = new Image();
-        bg.src = image;
-        bg.onload = () => {
-            ctx.drawImage(bg, 0,0);
-        }
-    })
-
-
     return (
-        <div className={"game-container"}>
-            <canvas className="game-canvas" ref={canvasRef} ></canvas>
+        <div className="main-container">
+            <h1>Hello, I'm Heesoo</h1>
+            <h1>A Full-stack Web Developer</h1>
+
+            <button className="main-btn">start</button>
         </div>
     )
-};
+}
