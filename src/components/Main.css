@@ -1,0 +1,31 @@
+.main-container{
+    display: flex;
+    margin: 5vh auto;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 7rem;
+}
+
+.main-content {
+    position: absolute;
+    top: 20vh;
+    left: 10vw;
+}
+
+img {
+    width: 40vw;
+    margin-left: 30vw;
+}
+
+.main-btn {
+    font-size: 5rem;
+    border: none;
+    background-color: #345546;
+    color: #ffffff;
+    font-weight: 900;
+    padding: 0 50px;
+    border-radius: 30px;
+}
