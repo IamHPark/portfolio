@@ -1,0 +1,4 @@
+.game-canvas {
+    background: url('/public/town-map.png') no-repeat;
+    background-size: contain;
+}

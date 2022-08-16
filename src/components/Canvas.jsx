@@ -1,20 +1,20 @@
 import React, { useEffect, useRef } from "react"
-import image from '../img/town-map.png';
+import './Canvas.css'
 
 export default function Main() {
     const canvasRef = useRef(null);
 
     useEffect(() => {
         const canvas = canvasRef.current;
-        canvas.width = 1200;
-        canvas.height =800;
+        canvas.width = window.innerWidth;
+        canvas.height =window.innerWidth;
         const ctx = canvas.getContext("2d");
 
-        const bg = new Image();
-        bg.src = image;
-        bg.onload = () => {
-            ctx.drawImage(bg, 0,0);
-        }
+        // const bg = new Image();
+        // bg.src = image;
+        // bg.onload = () => {
+        //     ctx.drawImage(bg, 0,0);
+        // }
     })
 
 
