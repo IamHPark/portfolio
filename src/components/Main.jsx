@@ -12,9 +12,11 @@ export default function Main() {
         <>
             <div className="main-container">
                 <div className="main-content">
-                    <img src="/board.png" alt="" width={"700px"} />
-                    <h1>Hello, I'm Heesoo</h1>
-                    <h1>A Full-stack Web Developer</h1>
+                    <img src="/board.png" alt="" width={ "100%" }/>
+                    <div className="main-text">
+                        <h1>Hello, I'm Heesoo</h1>
+                        <h1>A Full-stack Web Developer</h1>
+                    </div>
                 </div>
                 <img className="start-btn" src="/start.png" alt="" onClick={goGame}/>
                 {/* <img src="/girl.jpg" alt="" width={"800px"}/> */}

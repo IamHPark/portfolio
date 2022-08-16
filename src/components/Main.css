@@ -3,19 +3,36 @@
     background-size: contain;
     height: 100vh;
     width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    position: absolute;
 }
-
+/*
 h1 {
-    font-size: 7rem;
-}
+} */
 
 .main-content {
-    padding: 10vw;
+    position: relative;
+    top: 5vh;
+    width: 50%;
 }
 
-img {
+.main-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 70px;
+}
+
+.start-btn {
     width: 20vw;
     cursor: pointer;
+    position: relative;
+    top: 10vh;
 }
 
 .main-btn {
